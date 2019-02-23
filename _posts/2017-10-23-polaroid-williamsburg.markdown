@@ -6,9 +6,9 @@ description:
 image: /assets/images/placeholder-9.jpg
 author: Tyler Thomas
 tags: 
-  - Politics
-  - Thoughts
-  - Philosophy
+  - politics
+  - thoughts
+  - philosophy
 ---
 
 There are no more unique actors in the news anymore. Everyone is instead a stand-in for a type which we discuss at length, but have no meaning in and of themselves. 
