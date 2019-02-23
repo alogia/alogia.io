@@ -1,26 +1,17 @@
 ---
 layout: post
-title: "Polaroid Williamsburg"
-date: 2017-10-23
+title: "The Metaphysics of the Stand-in"
+date: 2019-02-23
 description: 
 image: /assets/images/placeholder-9.jpg
-author: Thomas Vaeth
+author: Tyler Thomas
 tags: 
-  - Dummy Text
-  - Moon Drinking
-  - Kale
+  - Politics
+  - Thoughts
+  - Philosophy
 ---
-Etsy squid occupy pop-up. Polaroid +1 everyday carry, kogi chillwave tacos raclette heirloom etsy next level cred locavore. Blog street art DIY, pug crucifix asymmetrical chicharrones. Small batch af single-origin coffee, scenester humblebrag fashion axe viral schlitz you probably haven’t heard of them. Kickstarter synth poutine brunch hoodie. Gochujang marfa raclette kickstarter tumeric kinfolk gentrify retro skateboard, forage meggings polaroid kombucha. Tilde mlkshk fam meggings.
 
-* Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.
-* Church-key crucifix messenger bag health goth
-* Try-hard artisan direct trade
-* Cold-pressed selfies
-
-1. Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.
-2. Church-key crucifix messenger bag health goth
-3. Try-hard artisan direct trade
-4. Cold-pressed selfies
+There are no more unique actors in the news anymore. Everyone is instead a stand-in for a type which we discuss at length, but have no meaning in and of themselves. 
 
 ### Subway tile
 Knausgaard readymade williamsburg tote bag taxidermy, DIY meditation copper mug. Farm-to-table [street art][#] fixie, chambray vice literally four loko vaporware. Pickled taxidermy freegan, affogato pinterest sriracha vexillologist narwhal pour-over. Man braid food truck celiac +1 bicycle rights, semiotics kogi fixie biodiesel woke raw denim quinoa ugh selfies williamsburg. Sartorial af ennui bitters knausgaard, leggings kickstarter slow-carb chia sustainable hexagon. Prism 3 wolf moon occupy ramps wayfarers tumblr narwhal 90’s. Woke chambray church-key before they sold out, gochujang fashion axe franzen banh mi pinterest forage kinfolk.

@@ -1,7 +1,6 @@
 {
   "name": "barber-jekyll",
-  "description": "Barber is a blog theme for Jekyll built by Thomas Vaeth at Samesies using HTML, Sass, and JavaScript.",
-  "demo": "http://barber.samesies.io",
+  "description": "A personal scroll to fill the universe with discourse ever approaching an asymptote of truth.",
   "version": "1.0.0",
   "scripts": {
     "start": "bundle exec jekyll serve",
@@ -10,19 +9,13 @@
     "gulp": "gulp"
   },
   "author": {
-    "name": "Samesies",
-    "email": "okay@samesies.io",
-    "url": "http://samesies.io"
+    "name": "Tyler",
+    "email": "alogia@gmail.com",
+    "url": "https://alogia.io"
   },
-  "keywords": [
-    "barber",
-    "jekyll",
-    "blog",
-    "theme"
-  ],
   "dependencies": {
     "aos": "^2.2.0",
-    "jquery": "2.2.4",
+    "jquery": ">=3.0.0",
     "salvattore": "^1.0.9"
   },
   "devDependencies": {
