@@ -1,8 +1,6 @@
 # Site/SEO settings
 email: alogia@gmail.com	
 baseurl: ""
-paginate: 12
-paginate_path: "/page/:num"
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
@@ -34,7 +32,7 @@ author:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
 compress_html:
   clippings: all
@@ -49,3 +47,28 @@ exclude:
   - gulpfile.js
   - package.json
   - README.md
+
+pagination:
+  enabled: true
+  debug: false
+  per_page: 12
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    layouts: 
+      - 'tag.html'
+    title: 'CULTPHETUS'
+    permalink: '/tag/:tag'
+    slugify:
+      mode: raw
+      cased: true
