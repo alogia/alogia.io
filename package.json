@@ -1,15 +1,15 @@
 {
-  "name": "barber-jekyll",
+  "name": "alogia.io-jekyll",
   "description": "A personal scroll to fill the universe with discourse ever approaching an asymptote of truth.",
   "version": "1.0.0",
   "scripts": {
     "start": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build",
-    "deploy": "gulp build && bundle exec jekyll build && s3-website deploy _site",
+    "deploy": "gulp build && bundle exec jekyll build",
     "gulp": "gulp"
   },
   "author": {
-    "name": "Tyler",
+    "name": "Tyler Thomas",
     "email": "alogia@gmail.com",
     "url": "https://alogia.io"
   },
@@ -35,7 +35,6 @@
     "gulp-stylelint": "^5.0.0",
     "gulp-uglify": "^3.0.0",
     "gulp-zip": "^4.0.0",
-    "s3-website": "^3.3.0",
     "stylelint-config-standard": "^17.0.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
