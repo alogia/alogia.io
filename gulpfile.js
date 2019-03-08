@@ -69,15 +69,15 @@ gulp.task('zip', () => {
     '!./.git',
     '!./node_modules/**'
   ])
-  .pipe(zip('barber-jekyll.zip'))
+  .pipe(zip('alogia.io.zip'))
   .pipe(gulp.dest('../'))
 });
 
-gulp.task('build', ['sass', 'browserify']);
+gulp.task('build', gulp.parallel('sass', 'browserify'));
 
 gulp.task('watch', () => {
   gulp.watch('./_assets/scss/**/*.scss', ['sass']);
   gulp.watch('./_assets/js/**/*.js', ['browserify']);
 });
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', gulp.series('build', 'watch'));

@@ -2,6 +2,11 @@
   "name": "alogia.io-jekyll",
   "description": "A personal scroll to fill the universe with discourse ever approaching an asymptote of truth.",
   "version": "1.0.0",
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alogia/alogia.github.io.git"
+  },
   "scripts": {
     "start": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build",
@@ -26,17 +31,17 @@
     "browserify": "^14.5.0",
     "eslint": "^4.11.0",
     "eslint-config-eslint": "^4.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp": ">=4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-clean-css": "^3.9.0",
-    "gulp-eslint": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-stylelint": "^5.0.0",
     "gulp-uglify": "^3.0.0",
-    "gulp-zip": "^4.0.0",
+    "gulp-zip": ">=4.0.0",
     "stylelint-config-standard": "^17.0.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-buffer": ">=1.0.0",
+    "vinyl-source-stream": "^2.0.0"
   }
 }

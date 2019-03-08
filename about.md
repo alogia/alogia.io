@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About the Author
+title: The Exegetical I
 image: /assets/images/tyler.jpg
 ---
 
-Here are some things about me.
-
+Tyler Thomas is a 
 

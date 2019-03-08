@@ -5,7 +5,7 @@ permalink: /:year/:month/:day/:title/
 google_analytics: 
 
 name: Tyler Thomas
-title: CULTPHETUS
+title: ALOGIA.io
 description: >
   A scross of discourse to disappear in the event horizon
 url: https://alogia.io
@@ -18,7 +18,7 @@ social:
 
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
-formcarry: https://formcarry.com
+formcarry: https://formcarry.com/s/QGZbmE169Y2
 
 # Disqus settings
 #disqus: test-apkdzgmqhj
@@ -41,7 +41,6 @@ compress_html:
 exclude:
   - node_modules
   - .DS_Store
-  - barber.jpg
   - Gemfile
   - Gemfile.lock
   - gulpfile.js
@@ -67,7 +66,7 @@ autopages:
   tags:
     layouts: 
       - 'tag.html'
-    title: 'CULTPHETUS'
+    title: 'ALOGIA.IO'
     permalink: '/tag/:tag'
     slugify:
       mode: raw
