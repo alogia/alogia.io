@@ -2,7 +2,7 @@
   "name": "alogia.io-jekyll",
   "description": "A personal scroll to fill the universe with discourse ever approaching an asymptote of truth.",
   "version": "1.0.0",
-  "licence": "MIT",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/alogia/alogia.github.io.git"
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build",
-    "deploy": "gulp build && bundle exec jekyll build",
+    "deploy": "gulp build && bundle exec jekyll build && git push",
     "gulp": "gulp"
   },
   "author": {
@@ -19,29 +19,31 @@
     "url": "https://alogia.io"
   },
   "dependencies": {
-    "aos": "^2.2.0",
+    "aos": ">=2.2.0",
     "jquery": ">=3.0.0",
-    "salvattore": "^1.0.9"
+    "salvattore": ">=1.0.9"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-eslint": "^8.0.2",
-    "babel-preset-env": "^1.6.1",
-    "babelify": "^8.0.0",
-    "browserify": "^14.5.0",
-    "eslint": "^4.11.0",
-    "eslint-config-eslint": "^4.0.0",
+    "babel-core": ">=6.26.0",
+    "babel-eslint": ">=10.0.1",
+    "babel-preset-env": ">=1.6.1",
+    "babelify": ">=10.0.0",
+    "browserify": ">=16.2.3",
+    "eslint": ">=5.15.1",
+    "eslint-config-eslint": ">=5.0.1",
+    "eslint-plugin-node": "^6.0.1",
     "gulp": ">=4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-clean-css": "^3.9.0",
-    "gulp-eslint": "^5.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-stylelint": "^5.0.0",
-    "gulp-uglify": "^3.0.0",
+    "gulp-autoprefixer": ">=6.0.0",
+    "gulp-clean-css": ">=4.0.0",
+    "gulp-eslint": ">=5.0.0",
+    "gulp-rename": ">=1.2.2",
+    "gulp-sass": ">=4.0.2",
+    "gulp-stylelint": ">=8.0.0",
+    "gulp-uglify": ">=3.0.0",
     "gulp-zip": ">=4.0.0",
-    "stylelint-config-standard": "^17.0.0",
+    "stylelint": ">=8.0.0",
+    "stylelint-config-standard": ">=18.2.0",
     "vinyl-buffer": ">=1.0.0",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": ">=2.0.0"
   }
 }
