@@ -3,7 +3,6 @@ layout: post
 title: "The Metaphysics of the Stand-in"
 date: 2019-02-23
 description: 
-image: /assets/images/placeholder-9.jpg
 author: Tyler Thomas
 tags: [politics, philosophy] 
 ---
