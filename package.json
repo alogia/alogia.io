@@ -9,8 +9,8 @@
   },
   "scripts": {
     "start": "bundle exec jekyll serve",
-    "build": "bundle exec jekyll build",
-    "deploy": "gulp build && bundle exec jekyll build && git push",
+    "build": "gulp build && bundle exec jekyll build",
+    "deploy": "gulp build && bundle exec jekyll serve",
     "gulp": "gulp"
   },
   "author": {
@@ -24,9 +24,9 @@
     "salvattore": ">=1.0.9"
   },
   "devDependencies": {
-    "babel-core": ">=6.26.0",
+    "@babel/core": ">=6.26.0",
     "babel-eslint": ">=10.0.1",
-    "babel-preset-env": ">=1.6.1",
+    "@babel/preset-env": ">=1.6.0",
     "babelify": ">=10.0.0",
     "browserify": ">=16.2.3",
     "eslint": ">=5.15.1",

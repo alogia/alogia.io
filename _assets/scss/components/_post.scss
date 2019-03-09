@@ -52,6 +52,7 @@
 
   &__content {
     border-top: $border;
+    color: $color-grey;
   }
 
   &__social {
@@ -91,19 +92,20 @@
     display: block;
 
     a {
-      color: $color-black;
+      color: $color-white;
       transition: color 200ms ease-in-out;
 
       &:hover,
       &:active,
       &:focus {
-        color: darken($color-black, 5);
+        color: darken($color-grey, 5);
       }
     }
   }
 
   &__bio {
-    @extend %font-size;
+      @extend %font-size;
+      color: $color-grey;
 
     margin-bottom: 0;
   }

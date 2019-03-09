@@ -4,8 +4,8 @@
 body {
   font-family: $font;
   line-height: $base-lineheight;
-  color: $color-black;
-  background-color: $color-white;
+  color: $color-white;
+  background-color: $color-black;
 }
 
 //----------------------------------------------
@@ -97,7 +97,7 @@ blockquote {
   font-family: $font-post;
   font-weight: 400;
   font-size: 1.25em;
-  color: $color-black;
+  color: $color-white;
   line-height: 1.4;
 
   @media (min-width: $mq-small) {
@@ -113,7 +113,7 @@ cite {
   font-family: $font;
   font-size: $font-xxxsmall;
   font-style: normal;
-  color: $color-black;
+  color: $color-grey;
   line-height: $base-lineheight;
 
   &:before {
@@ -134,6 +134,7 @@ small {
 
 strong {
   font-weight: 700;
+  color: $color-white;
 }
 
 sup,
@@ -150,7 +151,7 @@ sub {
 }
 
 mark {
-  color: $color-black;
+  color: $color-white;
 }
 
 //----------------------------------------------

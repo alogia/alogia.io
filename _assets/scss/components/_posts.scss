@@ -67,7 +67,7 @@
   &__link {
     display: block;
 
-    color: $color-black;
+    color: $color-white;
 
     &:hover {
       .posts__img {
@@ -79,7 +79,7 @@
   &__img {
     margin-bottom: 1em;
 
-    background-color: $color-lightgrey;
+    background-color: $color-black;
     transition: transform 400ms ease-in-out;
 
     img {
@@ -88,7 +88,8 @@
   }
 
   &__text {
-    @extend %font-size;
+      @extend %font-size;
+      color: $color-grey;
 
     font-weight: 400;
   }

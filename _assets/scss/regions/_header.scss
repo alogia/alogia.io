@@ -20,8 +20,9 @@
     left: 1em;
   }
 
-  background-color: $color-white;
+  background-color: $color-black;
   border-bottom: $border;
+  border-color: $color-grey;
 
   @media (min-width: $mq-small) {
     padding: {
@@ -34,7 +35,7 @@
     @extend %font-header;
 
     font-size: $font-xsmall;
-    color: $color-black;
+    color: $color-white;
   }
 
   &__list {
@@ -55,7 +56,7 @@
       }
 
       a {
-        color: $color-black;
+        color: $color-white;
       }
     }
   }
