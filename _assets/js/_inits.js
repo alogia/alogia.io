@@ -16,27 +16,27 @@ import Popup from './components/_popup.js';
 // ----------------------------------------------
 $(() => {
 
-  // Inits
-  AOS.init({
-    duration: 600,
-    easing: 'ease-in-out',
-    once: true
+    // Inits
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out',
+      once: true
   });
-  PageTransition.init();
+    PageTransition.init();
 
-  if ($('.posts').length && $('.posts__next').length) {
-    InfiniteScroll.init();
-  }
+    if ($('.posts').length && $('.posts__next').length) {
+      InfiniteScroll.init();
+    }
 
-  if ($('#markdown').length) {
-    miscFlexVid();
-    miscZoom();
-    miscSocialShare();
-  }
+    if ($('#markdown').length) {
+        miscFlexVid();
+        miscZoom();
+        miscSocialShare();
+    }
 
-  if ($('#form').length) {
-    Formcarry.init();
-    Popup.init();
-  }
+    if ($('#form').length) {
+        Formcarry.init();
+        Popup.init();
+    }
 
 });
