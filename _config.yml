@@ -7,8 +7,9 @@ google_analytics:
 name: Tyler Thomas
 title: ALOGIA.io
 description: >
-  A scross of discourse to disappear in the event horizon
+  A cross of discourse to disappear in the event horizon
 url: https://alogia.io
+host: 0.0.0.0
 default_img: /assets/images/seo.jpg
 social:
   - name: instagram
