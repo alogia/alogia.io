@@ -7,14 +7,6 @@
   //   background-color: $color-white;
   // }
   
-  .footnote {
-    font-size: $font-xsmall;
-  }
-
-  .footnotes {
-    font-size: $font-xsmall;
-  }
-
   &__header {
     @extend %text-center;
 
@@ -245,6 +237,16 @@
     width: 100vw;
     max-width: none;
   }
+
+
+  .footnote {
+    font-size: $font-xxxsmall;
+  }
+
+  .footnotes {
+    font-size: $font-xxxsmall;
+  }
+
 
   .flex-vid {
     margin-bottom: 1.5rem;
