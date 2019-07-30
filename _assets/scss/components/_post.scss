@@ -6,6 +6,10 @@
   // .amp-template & {
   //   background-color: $color-white;
   // }
+  
+  .footnote {
+    font-size: $font-xsmall;
+  }
 
   &__header {
     @extend %text-center;
@@ -104,8 +108,8 @@
   }
 
   &__bio {
-      @extend %font-size;
-      color: $color-grey;
+	  @extend %font-size;
+	  color: $color-grey;
 
     margin-bottom: 0;
   }
@@ -245,4 +249,5 @@
       display: block;
     }
   }
+
 }

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/alogia
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alogia.io
+  * I am alogia (https://keybase.io/alogia) on keybase.
+  * I have a public key ASB0nUACKSLklj1Q9XWnAlpPzu3KxEhM-YhqJY-uxXz-2go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120749d40022922e4963d50f575a7025a4fceedcac4484cf9886a258faec57cfeda0a",
+      "host": "keybase.io",
+      "kid": "0120749d40022922e4963d50f575a7025a4fceedcac4484cf9886a258faec57cfeda0a",
+      "uid": "bb1df0ec418f0e0a7a17dc3385b46019",
+      "username": "alogia"
+    },
+    "merkle_root": {
+      "ctime": 1564305703,
+      "hash": "b942364a87f49c99db8eedecaab5c6c3d0c9f48ed22032033a3d44597402f8f9c2db60e954c497809ee4ce4206a921579e343f17099d140c632b45ea32868868",
+      "hash_meta": "d9d8120d1ae2217f26ed879dc4442e682c2cba4d18494d55fb640c1890e5212d",
+      "seqno": 5869303
+    },
+    "service": {
+      "entropy": "RDoK7NRZfyGvn68CAdbaU0aQ",
+      "hostname": "alogia.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1564305724,
+  "expire_in": 504576000,
+  "prev": "f1e5e8cb77805b1bc5cbe3a3db312a15658238620099889dd12ace37c528c289",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdJ1AAiki5JY9UPV1pwJaT87tysRITPmIaiWPrsV8/toKp3BheWxvYWTESpcCD8Qg8eXoy3eAWxvFy+Oj2zEqFWWCOGIAmYid0SrON8UowonEILzt2dVQ0JwH8ALr+rs6ii+Kd4uwXwFsq0Od/9D/1IeQAgHCo3NpZ8RALa0aa2Q3o+k0AkqoNNtDskZKhLbhXn+sXMq7Ku4qV5v4Y9PGerxsk+aN/eph65b0YLNex5J8HLxcw19X5iEtCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILRAq6+G+q9EatFAED13h7VwwRCeF4fwAKxxWrZgwLgio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alogia
+
+==================================================================
